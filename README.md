@@ -23,20 +23,20 @@ Our target was to build a user-personalized twitter and instagram feeds along wi
 
 The App Screens:
 
-![Alt text](E:\ScreenSHots\one.png)
+![Alt text](https://github.com/chiragagrawal93/PlaceMania/blob/master/Screenshots/one.png)
 User can begin by entering the locality the user is interested in.  
 
-![Alt text](E:\ScreenSHots\two.png)
+![Alt text](https://github.com/chiragagrawal93/PlaceMania/blob/master/Screenshots/two.png)
 The location as shown on the map
 
-![Alt text](E:\ScreenSHots\three.png)
+![Alt text](https://github.com/chiragagrawal93/PlaceMania/blob/master/Screenshots/three.png)
 Near By Places
 
-![Alt text](E:\ScreenSHots\four.png)
+![Alt text](https://github.com/chiragagrawal93/PlaceMania/blob/master/Screenshots/four.png)
 Twitter Feed.
 
-![Alt text](E:\ScreenSHots\five.png)
+![Alt text](https://github.com/chiragagrawal93/PlaceMania/blob/master/Screenshots/five.png)
 Instagram Feed.
 
-![Alt text](E:\ScreenSHots\six.png)
+![Alt text](https://github.com/chiragagrawal93/PlaceMania/blob/master/Screenshots/six.png)
 Google News Feed. 
