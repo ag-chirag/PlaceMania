@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+  >
+
+        <RelativeLayout
+            android:background="#512DA8"
+            android:id="@+id/search_edit_rlayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/search_sug_header_height"
+            android:visibility="gone">
+
+
+            <ImageButton
+                android:id="@+id/search_back_button"
+                android:layout_width="@dimen/search_sug_header_height"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_search_sug_back" />
+
+            <Button
+                android:background="@drawable/search_filter_background"
+                android:id="@+id/filter_button"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/search_sug_header_height"
+                android:layout_height="@dimen/search_sug_header_height" />
+
+            <Button
+                android:background="@drawable/seach_close_background"
+                android:id="@+id/search_close_button"
+                android:layout_toLeftOf="@id/filter_button"
+                android:layout_width="@dimen/search_sug_header_height"
+                android:layout_height="@dimen/search_sug_header_height" />
+
+            <TextView
+                android:text="query"
+                android:id="@+id/entered_search_query"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-regular"
+                android:singleLine="true"
+                android:layout_toLeftOf="@id/search_close_button"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:layout_toRightOf="@id/search_back_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@color/title_bar"
+            android:id="@+id/search_input_rlayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/search_sug_header_height">
+
+            <ImageButton
+                android:id="@+id/search_back_button2"
+                android:layout_width="@dimen/search_sug_header_height"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_search_sug_back" />
+
+            <TextView
+                android:id="@+id/bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/white"
+                android:text="BOOKMARK"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:padding="4dp"/>
+
+            <TextView
+                android:id="@+id/search_input"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:layout_toLeftOf="@id/bookmark"
+                android:background="@null"
+                android:gravity="center"
+                android:layout_toRightOf="@id/search_back_button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--<com.google.android.maps.MapView-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/mapview"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:clickable="true"-->
+        <!--android:margin="10dp"-->
+        <!--android:apiKey="API_KEY"-->
+        <!--/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.place.mania.SlidingTabLayout
+                android:id="@+id/search_tabs"
+                android:layout_width="match_parent"
+                android:background="@color/title_bar"
+                android:layout_height="@dimen/ab_height" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/search_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white" />
+        </LinearLayout>
+
+
+
+        <ListView
+            android:background="@color/white"
+            android:id="@+id/search_listview"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

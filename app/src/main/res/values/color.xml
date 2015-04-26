@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="tile_grey_band">#dddddd</color>
+    <color name="black">#000000</color>
+    <color name="title_bar">#0a425b</color>
+    <color name="subscribed_color">#d8d8d8</color>
+    <color name="red">#f44336</color>
+    <color name="transparent">#00000000</color>
+</resources>

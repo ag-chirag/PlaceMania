@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/btn_layout"></WebView>
+
+<RelativeLayout
+    android:id="@+id/btn_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true">
+    <ToggleButton
+        android:id="@+id/restaurants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:layout_marginRight="@dimen/search_filter_toggle_btn_margin_right"
+        android:layout_marginLeft="12dp"
+        android:textAllCaps="false"
+        android:background="@drawable/toggle_selector"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:textOff="Restaurants"
+        android:textOn="Restaurants"
+        android:textSize="16sp" />
+
+    <ToggleButton
+        android:id="@+id/hospitals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:textAllCaps="false"
+        android:layout_marginRight="@dimen/search_filter_toggle_btn_margin_right"
+        android:layout_marginLeft="@dimen/search_filter_toggle_btn_margin_right"
+        android:layout_toRightOf="@+id/restaurants"
+        android:background="@drawable/toggle_selector"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:textOff="Malls"
+        android:textOn="Malls"
+        android:textSize="@dimen/search_filter_toggle_text_size" />
+
+    <ToggleButton
+        android:id="@+id/pubs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginRight="@dimen/search_filter_toggle_btn_margin_right"
+        android:layout_marginLeft="@dimen/search_filter_toggle_btn_margin_right"
+        android:layout_toRightOf="@+id/hospitals"
+        android:background="@drawable/toggle_selector"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:textOff="Pubs"
+        android:textOn="Pubs"
+        android:textSize="@dimen/search_filter_toggle_text_size" />
+
+    <ToggleButton
+        android:id="@+id/malls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/restaurants"
+        android:layout_below="@+id/restaurants"
+        android:layout_marginRight="@dimen/search_filter_toggle_btn_margin_right"
+        android:layout_marginTop="@dimen/search_filter_toggle_btn_margin_right"
+        android:textAllCaps="false"
+        android:background="@drawable/toggle_selector"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:textOff="Hospitals"
+        android:textOn="Hospitals"
+        android:textSize="@dimen/search_filter_toggle_text_size" />
+
+    <ToggleButton
+        android:id="@+id/parks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/malls"
+        android:layout_below="@+id/restaurants"
+        android:layout_marginRight="@dimen/search_filter_toggle_btn_margin_right"
+        android:layout_marginLeft="@dimen/search_filter_toggle_btn_margin_right"
+        android:textAllCaps="false"
+        android:layout_toRightOf="@+id/malls"
+        android:background="@drawable/toggle_selector"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:textOff="Parks"
+        android:textOn="Parks"
+        android:textSize="@dimen/search_filter_toggle_text_size" />
+
+    <ToggleButton
+        android:id="@+id/schools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/malls"
+        android:layout_below="@+id/restaurants"
+        android:layout_marginRight="@dimen/search_filter_toggle_btn_margin_right"
+        android:layout_marginLeft="@dimen/search_filter_toggle_btn_margin_right"
+        android:textAllCaps="false"
+        android:layout_toRightOf="@+id/parks"
+        android:background="@drawable/toggle_selector"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:textOff="Schools"
+        android:textOn="Schools"
+        android:textSize="@dimen/search_filter_toggle_text_size" />
+</RelativeLayout>
+</RelativeLayout>
