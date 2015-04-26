@@ -20,3 +20,23 @@ Our target was to build a user-personalized twitter and instagram feeds along wi
 -Showing specific traffic related data from @blrcitytraffic’s twitter handle. 
 -Integrating quora feeds into the app, considering that quora is the best platform to know crowd sourced answers to questions about pretty much everything that there is to ask about a city or locality. 
 -Personalization. 
+
+The App Screens:
+
+![Alt text](E:\ScreenSHots\one.png)
+User can begin by entering the locality the user is interested in.  
+
+![Alt text](E:\ScreenSHots\two.png)
+The location as shown on the map
+
+![Alt text](E:\ScreenSHots\three.png)
+Near By Places
+
+![Alt text](E:\ScreenSHots\four.png)
+Twitter Feed.
+
+![Alt text](E:\ScreenSHots\five.png)
+Instagram Feed.
+
+![Alt text](E:\ScreenSHots\six.png)
+Google News Feed. 
