@@ -10,9 +10,9 @@ Our target was to build a user-personalized twitter and instagram feeds along wi
 
 # TECHNOLOGY STACK
 
--App built for Android using Android Studio
--Twitter API, Instagram API, GoogleNews API, Google Places API, Google Maps API v2 and v3.
--PHP and MySQL for backend. 
+->App built for Android using Android Studio
+->Twitter API, Instagram API, GoogleNews API, Google Places API, Google Maps API v2 and v3.
+->PHP and MySQL for backend. 
 
 # AREAS NOT COMPLETED
 
